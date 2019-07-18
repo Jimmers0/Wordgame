@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://kit.fontawesome.com/eef8fd893d.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Barriecito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+
+
+
+    
+</head>
+<body>
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+
+        
+    <div class="container">
+            <h1>HANGMAN</h1>
+            <div id="hearts"> 
+                    <div id="heart1"><i class="fas fa-heart"></i></div>
+                    <div id="heart2"><i class="fas fa-heart"></i></div>
+                    <div id="heart3"><i class="fas fa-heart"></i></div>
+                    <div id="heart4"><i class="fas fa-heart"></i></div>
+                    <div id="heart5"><i class="fas fa-heart"></i></div>
+                    <div id="heart6"><i class="fas fa-heart"></i></div>
+                    <div id="heart7"><i class="fas fa-heart"></i></div>
+                    <div id="heart8"><i class="fas fa-heart"></i></div>
+                </div> 
+                <div id="guessedarr"></div>
+                <div id="guessesleft"></div>
+    <div class="bottom">
+    <div id="word"></div>
+    <div id="empty"></div>
+    <div class="guessanswer">
+        <input type="text" id="guessLetter">
+        <button type="button" id="submitguess">guess</button>
+    </div>
+    <div id="info"></div>
+    
+    </div>
+
+    
+    <div id="win">
+        <div id="loader">
+            <img src="https://media.giphy.com/media/pa37AAGzKXoek/giphy.gif" alt="dancing" class="gif">
+        </div>
+        <div id="start">Awesome you won! <br> Start a new game?</div>
+        <button type="button" id="newgame">Lets go!</button>
+    </div>
+
+    <div id="lose">
+            <div id="loader">
+                <img src="https://media.giphy.com/media/3ohs81rDuEz9ioJzAA/giphy.gif" alt="angry">
+            </div>
+            <div id="start">Sorry you lost!<br> Start a new game?</div>
+            <button type="button" id="newgame2">Lets go!</button>
+        </div>
+   
+    <div id="guessesleft"></div>
+
+    
+
+    </div>
+
+  
+    
+            
+    
+</body>
+</html>

@@ -1,0 +1,280 @@
+html {box-sizing:border-box;}
+*, *::before, *::after {box-sizing:inherit;}
+
+#win {
+    width: 2000px;
+    height: 1000px;
+    background-color: black;
+    position: relative;
+    right: 500px; 
+    top: -1000px;
+    visibility: hidden;
+    
+}
+
+#win.show {
+    width: 2000px;
+    height: 1000px;
+    background-color: black;
+    position: relative;
+    right: 500px; 
+    top: -1070px;
+    padding-top: 20px;
+    visibility: visible;
+}
+
+#loader {
+    margin-top: 20px;
+}
+
+.gif {
+    padding-top: 10px;
+}
+
+#lose {
+    width: 2000px;
+    height: 1000px;
+    background-color: black;
+    position: relative;
+    right: 500px; 
+    top: -2000px;
+    visibility: hidden;
+    
+}
+
+#lose.show {
+    width: 2000px;
+    height: 1000px;
+    background-color: black;
+    position: relative;
+    right: 500px; 
+    top: -2005px;
+    visibility: visible;
+}
+
+#start {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+#hearts {
+    padding-top:30px;
+    padding-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 440px;
+    border: 3px solid white;
+    position: relative;
+    top: -100px;
+    left: -200px;
+    background-color: black;
+}
+
+#heart1 {
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    color: #cea2ac;
+}
+
+#heart2 {
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    font-size: 50px;
+    color: #cea2ac;
+}
+
+#heart3 {
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    font-size: 50px;
+    color: #cea2ac;
+}
+
+#heart4 {
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    font-size: 50px;
+    color: #cea2ac;
+}
+
+#heart5 {
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    font-size: 50px;
+    color: #cea2ac;
+}
+
+#heart6 {
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    font-size: 50px;
+    color: #cea2ac;
+}
+
+#heart7 {
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    font-size: 50px;
+    color: #cea2ac;
+}
+
+#heart8 {
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    font-size: 50px;
+    color: #cea2ac;
+}
+
+#heart1.show {
+    height: 100px;
+    width: 100px;
+    color: black;
+    font-size: 50px;
+    
+}
+
+#heart2.show {
+    height: 100px;
+    width: 100px;
+    color: black;
+    font-size: 50px;
+}
+
+#heart3.show {
+    height: 100px;
+    width: 100px;
+    color: black;
+    font-size: 50px;
+}
+
+#heart4.show {
+    height: 100px;
+    width: 100px;
+    color: black;
+    font-size: 50px;
+}
+
+#heart5.show {
+    height: 100px;
+    width: 100px;
+    color: black;
+    font-size: 50px;
+}
+
+#heart6.show {
+    height: 100px;
+    width: 100px;
+    color: black;
+    font-size: 50px;
+}
+
+#heart7.show {
+    height: 100px;
+    width: 100px;
+    color: black;
+    font-size: 50px;
+}
+
+#heart8.show {
+    height: 100px;
+    width: 100px;
+    color: black;
+    font-size: 50px;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Barriecito', cursive;
+    color: white;
+
+}
+
+#word {
+    font-size: 100px;
+    letter-spacing: 20px;
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+
+}
+
+#guessLetter {
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    border: 3px solid white;
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+}
+
+#submitguess {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.guessanswer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 400px;
+    background-color: black;
+}
+
+#guessedarr {
+    height: 250px;
+    width: 440px;
+    font-size: 100px;
+    position: relative;
+    border: 2px solid white;
+    top: -350px;
+    left: 750px;
+    overflow-wrap: break-word;
+    color: white;
+}
+
+#info {
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    color: white;
+}
+
+#guessesleft {
+    font-size: 45px;
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    top: -330px;
+    right: 475px;
+    color: white;
+}
+
+.bottom {
+    position: relative;
+    top: -450px;
+}
